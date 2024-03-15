@@ -1,0 +1,119 @@
+Exercício 1.1 Quais são os 3 tipos de códigos básicos de uma página de hipertexto? Explique para
+que serve cada um dos tipos. 
+
+Os 3 tipos de códigos básicos de uma página de hipertexto:
+Estrutura: Define a estrutura básica da página e organiza o conteúdo em seções. As tags mais comuns são:
+
+<html>: Define o início do documento HTML.
+<head>: Contém informações sobre o documento, como título, codificação de caracteres e metadados.
+<title>: Define o título da página que aparece na barra de título do navegador.
+<body>: Contém todo o conteúdo visível da página, como texto, imagens, links e outros elementos.
+Formatação: Controla a aparência do texto e dos elementos na página. As tags mais comuns são:
+
+<p>: Define um parágrafo de texto.
+<h1> a <h6>: Definem títulos de diferentes níveis.
+<br>: Insere uma quebra de linha.
+<strong>: Torna o texto em negrito.
+<em>: Torna o texto em itálico.
+Conteúdo: Insere elementos multimídia e interativos na página. As tags mais comuns são:
+
+<img>: Insere uma imagem.
+<a>: Cria um link para outra página ou recurso.
+<video>: Insere um vídeo.
+<form>: Cria um formulário para coleta de dados do usuário.
+
+
+Exercício 1.2 Quantos arquivos CSS e Javascript podem estar vinculados a uma mesma página de
+hipertexto? Justifique sua resposta. 
+
+Não há um número estrito de arquivos CSS ou JavaScript que podem ser vinculados a uma única página de hipertexto. O número de arquivos depende das necessidades específicas do desenvolvimento da página e das práticas recomendadas. No entanto, algumas considerações devem ser levadas em conta:
+
+CSS:
+
+Não há um limite específico de arquivos CSS que podem ser vinculados. No entanto, é comum agrupar estilos semelhantes em um único arquivo para otimizar o desempenho da página, reduzindo o número de solicitações ao servidor. O uso de técnicas como minificação e compressão também é recomendado para melhorar o carregamento da página.
+JavaScript:
+
+Da mesma forma, não há um número fixo de arquivos JavaScript que podem ser vinculados. No entanto, é aconselhável agrupar funcionalidades relacionadas em arquivos separados para manutenção e organização. O carregamento assíncrono ou diferido de scripts pode ser utilizado para melhorar o desempenho da página.
+
+Exercício 1.3 É possível diferentes páginas de hipertexto terem vínculo com os mesmos arquivos
+Javascript e CSS? Justifique sua resposta
+
+
+Sim, é totalmente possível e comum que diferentes páginas de hipertexto compartilhem os mesmos arquivos JavaScript e CSS. Essa prática é eficiente em termos de armazenamento, já que evita a duplicação desnecessária de código e facilita a manutenção. Quando várias páginas de um site têm estilos e funcionalidades semelhantes, é prático ter um conjunto centralizado de arquivos de estilo (CSS) e script (JavaScript) que pode ser referenciado por todas essas páginas.
+
+
+Exercício 1.4 Descreva a diferença entre uma página de hipertexto estática e uma dinâmica,
+pontuando as vantagens e desvantagens de cada um dos dois tipos.
+
+Página de Hipertexto Estática:
+
+Descrição: Uma página estática é pré-construída e exibida da mesma forma para todos os usuários. Seu conteúdo é fixo e não muda com base em interações do usuário ou em dados em tempo real.
+
+Vantagens:
+
+Desempenho: Páginas estáticas tendem a carregar mais rapidamente, pois não requerem processamento no servidor para cada solicitação.
+Simplicidade: São fáceis de criar e hospedar, exigindo menos recursos técnicos.
+Segurança: Geralmente são consideradas mais seguras, pois não envolvem interações dinâmicas no servidor.
+Desvantagens:
+
+Atualizações: Alterações no conteúdo exigem modificações diretas no código HTML.
+Interatividade Limitada: Não podem fornecer interações personalizadas ou dados em tempo real para o usuário.
+Página de Hipertexto Dinâmica:
+
+Descrição: Páginas dinâmicas são construídas em tempo real em resposta a solicitações do usuário. Elas podem exibir conteúdo personalizado e interagir com bancos de dados ou serviços externos.
+
+Vantagens:
+
+Interatividade: Permitem interações avançadas, como formulários interativos, atualizações em tempo real e personalização do conteúdo.
+Manutenção Eficiente: O conteúdo pode ser gerenciado centralmente em bancos de dados, facilitando as atualizações.
+Adaptabilidade: Podem se ajustar a diferentes contextos e usuários.
+Desvantagens:
+
+Desempenho: Pode haver uma sobrecarga de processamento no servidor, resultando em tempos de carregamento mais lentos.
+Complexidade: Desenvolvimento e manutenção podem ser mais complexos devido à interatividade e à necessidade de lidar com servidores dinâmicos.
+Segurança: Requer cuidados extras para proteger contra vulnerabilidades de segurança, como injeção de código. 
+
+
+Exercício 1.5 Qual é o caminho percorrido por uma requisição HTTP a uma página de hipertexto
+estática? 
+
+O caminho percorrido por uma requisição HTTP a uma página de hipertexto estática envolve várias etapas, desde a solicitação do cliente até a entrega da página pelo servidor. Aqui está uma visão geral simplificada desse processo:
+
+Iniciação da Requisição pelo Cliente
+Resolução de DNS
+Estabelecimento da Conexão TCP
+Envio da Requisição HTTP
+Processamento da Requisição pelo Servidor
+Envio da Resposta HTTP
+Transmissão da Resposta para o Cliente
+Renderização da Página pelo Cliente
+Fechamento da Conexão TCP
+
+
+Exercício 2.1 Qual é o elemento HTML que contém todos os demais elementos de uma página? 
+
+O elemento HTML que contém todos os outros elementos de uma página é o elemento <html>. Ele é o elemento raiz de uma página HTML e contém todos os outros elementos, como <head> e <body>. 
+
+Exercício 2.2 Qual é o elemento HTML que contém elementos com metainformações sobre uma
+página web?
+O elemento HTML que contém elementos com metainformações sobre uma página web é o elemento <head>. Este elemento é usado para incluir informações sobre a página que não são exibidas diretamente no navegador, como metadados, links para folhas de estilo, scripts, informações de codificação e muito mais.
+
+Exercício 2.3 Qual é o elemento HTML que contém todos os elementos de conteúdo de uma página
+web? 
+
+O elemento HTML que contém todos os elementos de conteúdo de uma página web é o elemento <body>. Este elemento envolve todos os elementos visíveis na página, como texto, imagens, vídeos, listas, etc. Tudo o que é exibido na página para os usuários geralmente está contido dentro do elemento <body>.
+
+
+Exercício 2.4 Qual é o elemento HTML que permite associar um documento CSS a uma página
+web na seção de metainformações? 
+O elemento HTML que permite associar um documento CSS a uma página web na seção de metainformações é o elemento <link>. Este elemento é utilizado dentro da seção <head> do documento HTML para referenciar o arquivo CSS externo que será aplicado à página. Através do atributo href, você especifica o caminho para o arquivo CSS.
+
+
+
+
+
+
+
+
+
+
